@@ -20,3 +20,31 @@ authors:
 title: "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition"
 url: "https://github.com/wtepsan/ROI-Approaches-in-HAR/"
 date-released: 2024-06-30
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Tepsan
+    given-names: Worawit
+    affiliation: "International College of Digital Innovation, Chiang Mai University, Thailand"
+    email: worawit.tepsan@cmu.ac.th
+  - family-names: Watcharapinchai
+    given-names: Sitapa
+    affiliation: "National Electronic and Computer Technology Center (NECTEC), National Science and Technology Development Agency (NSTDA), Thailand"
+    email: sitapa.wat@nectec.or.th
+  - family-names: Lueangwitchajaroen
+    given-names: Pitiwat
+    affiliation: "Department of Physics and Astronomy, The University of Nottingham, United Kingdom"
+    email: ppxpl2@nottingham.ac.uk
+  - family-names: Sooksatra
+    given-names: Sorn
+    affiliation: "National Electronic and Computer Technology Center (NECTEC), National Science and Technology Development Agency (NSTDA), Thailand"
+    email: sorn.soo@nectec.or.th
+  doi: "10.0000/00000"
+  journal: "Journal Title"
+  month: 9
+  start: 1 # First page number
+  end: 6 # Last page number
+  title: "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition"
+  issue: 1
+  volume: 1
+  year: 2024
