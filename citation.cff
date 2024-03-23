@@ -1,14 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Tepsan"
-  given-names: "Worawit"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "A"
-  given-names: "B"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
+message: "If you use this software in your work, please cite it using the following metadata"
 title: "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition"
-version: 2.0.4
-doi: 10.5281/zenodo.1234
-date-released: 2017-12-18
-url: "https://github.com/github-linguist/linguist"
+type: report
+authors:
+  - family-names: Tepsan
+    given-names: Worawit
+    affiliation: "International College of Digital Innovation, Chiang Mai University, Thailand"
+    email: worawit.tepsan@cmu.ac.th
+  - family-names: Watcharapinchai
+    given-names: Sitapa
+    affiliation: "National Electronic and Computer Technology Center (NECTEC), National Science and Technology Development Agency (NSTDA), Thailand"
+    email: sitapa.wat@nectec.or.th
+  - family-names: Lueangwitchajaroen
+    given-names: Pitiwat
+    affiliation: "Department of Physics and Astronomy, The University of Nottingham, United Kingdom"
+    email: ppxpl2@nottingham.ac.uk
+  - family-names: Sooksatra
+    given-names: Sorn
+    affiliation: "National Electronic and Computer Technology Center (NECTEC), National Science and Technology Development Agency (NSTDA), Thailand"
+    email: sorn.soo@nectec.or.th
