@@ -3,6 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Tepsan"
     given-names: "Worawit"
+    email: "worawit.tepsan@cmu.ac.th"
   - family-names: "Watcharapinchai"
     given-names: "Sitapa"
   - family-names: "Lueangwitchajaroen"
