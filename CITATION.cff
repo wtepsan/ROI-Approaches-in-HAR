@@ -1,7 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software in your work, please cite it using the following metadata"
-title: "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition"
-type: report
+message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Tepsan"
     given-names: "Worawit"
@@ -11,5 +9,6 @@ authors:
     given-names: "Pitiwat"
   - family-names: "Sooksatra"
     given-names: "Sorn"
+title: "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition"
 url: "https://github.com/wtepsan/ROI-Approaches-in-HAR/"
 date-released: 2024-01-01
