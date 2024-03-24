@@ -12,7 +12,7 @@ If you use this code or our findings in your research, please cite our paper as 
 ```bibtex
 @article{ComparativeROIHAR,
   author = {Tepsan, Worawit and Watcharapinchai, Sitapa and Lueangwitchajaroen, Pitiwat and Sooksatra, Sorn},
-  doi = {10.0000/00000},
+  doi = {00.0000/00000},
   journal = {Journal Title},
   month = sep,
   number = {1},
