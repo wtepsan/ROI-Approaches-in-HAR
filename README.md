@@ -2,8 +2,8 @@
 
 This repository contains the code implemented as part of the research for the paper titled "Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition," authored by Worawit Tepsan, Sitapa Watcharapinchai, Pitiwat Lueangwitchajaroen, and Sorn Sooksatra. The paper has been published in 2024 and presents an in-depth analysis of different Adaptive Regions of Interest (ROI) techniques in the field of Human Action Recognition (HAR).
 
-## Overview
-
+## Abstract
+ This study examines Adaptive Regions of Interest (ROI) methods in Human Action Recognition (HAR) by utilizing OpenPose keypoints for feature extraction from video data. Employing the NTU RGB+D 60 dataset and the EfficientNetB7 model for analysis, we assess ROIs ranging from full-body to specific joint segmentations. Our findings indicate that image inputs based on ROIs, particularly those focusing on 7-joint regions, substantially improve HAR accuracy. An ensemble method incorporating multiple image inputs further amplifies performance. Finally, by replacing the RGB channel in MMNet, the model achieves a 0.9718 accuracy score on the XSUB benchmark and a 0.9929 accuracy score on XVIEW, with the XSUB results establishing new standards in the field.
 
 ## Citation
 
