@@ -1,33 +1,33 @@
 # Adaptive Body Part ROI with Triple Stream Approach
 
-This repository contains the code implemented as part of the research for the paper titled "Adaptive Body Part ROI with Triple Stream Approach," authored by Worawit Tepsan, Sitapa Watcharapinchai, Pitiwat Lueangwitchajaroen, and Sorn Sooksatra. The paper has been published in 2024 and presents an in-depth analysis of different Adaptive Regions of Interest (ROI) techniques in the field of Human Action Recognition (HAR).
+This repository contains the code implemented as part of the research for the paper titled "Adaptive Body Part ROI with Triple Stream Approach for Human Action Recognition," authored by Worawit Tepsan, Sitapa Watcharapinchai, Pitiwat Lueangwitchajaroen, and Sorn Sooksatra. 
 
 ## Abstract
-In this paper, we present experiments with different methods for extracting a representative image from a video using OpenPose keypoints. Based on the comparative results, the best among the methods is the 7 joints ROI. In addition, an ensemble of results from the 7 joints ROI and Full Body Segmentation can significantly increase the accuracy of action recognition. Moreover, when this is combined with another modality, such as in MMNets, which replaces the RGB channels, it shows a significant improvement in accuracy. The results can compete with other state-of-the-art approaches. 
-As we can see, there are many factors that affect the efficacy of Human Action Recognition (HAR) models, such as frame selection. In this study, we have employed random frame selection, which is a straightforward approach to frame choice. However, there is potential for improving accuracy by exploring various frame selection methodologies. Therefore, investigating and enhancing frame selection techniques will be the focus of our future research
+This study explores Adaptive Regions of Interest (ROI) methods in Human Action Recognition (HAR) through the utilization of OpenPose keypoints for ROI image generation from video data. Utilizing the NTU RGB+D 60 dataset and the EfficientNetB7 model, we examine ROIs ranging from full-body to specific joint segmentations. We propose a Triple Stream approach—where each stream employs a unique ROI image generation process. Our results demonstrate that the Triple Stream approach, combining Full Body Segmentation, 7 Joint ROI, and 6 Joint ROI, significantly enhances HAR accuracy for the XSUB benchmark. Similarly, for the XVIEW benchmark, a combination of Full Body Segmentation, 7 Joint ROI, and 3 Joint ROI significantly improves accuracy. Our proposed approach can also be adapted to enhance the performance of other models. Notably, by integrating the Triple Stream approach with alterations to the RGB channel in MMNet \cite{MMnet}, we achieve accuracies of 97.2\% on the XSUB benchmark and 99.3\% on XVIEW.
 
 ## Download Paper
-LINK:  
+LINK: https://jcsse2024.computing.psu.ac.th/wp-content/uploads/2024/06/JCSSE-2024-Proceedings_mobile.pdf
 
 ## System Requirements
 - Python 3.9
 
-### Installation
-
+## Code Implementation
+To implement the code, you will need to download dataset, pretrained models and set up paths properly. I will futher add some details later. So sorry for an inconvenience. 
 
 ## Citation
 
 If you use this code or our findings in your research, please cite our paper as follows:
 
 ```bibtex
-@article{ComparativeROIHAR,
-  author = {Tepsan, Worawit and Watcharapinchai, Sitapa and Lueangwitchajaroen, Pitiwat and Sooksatra, Sorn},
-  doi = {00.0000/00000},
-  journal = {Journal Title},
-  month = sep,
-  number = {1},
-  pages = {1--6},
-  title = {{Comparative Analysis of Adaptive ROI Approaches in Human Action Recognition}},
-  volume = {1},
-  year = {2024}
+@inproceedings{Tepsan2024,
+  author    = {Worawit Tepsan and Sorn Sooksatra and Pitiwat Lueangwitchajaroen and Sitapa Watcharapinchai},
+  title     = {Adaptive body part ROI with triple stream approach for human action recognition},
+  booktitle = {Proceedings of the 2024 Joint Conference on Computer Science and Software Engineering (JCSSE 2024)},
+  pages     = {80--86},
+  year      = {2024},
+  conference = {61278},
+  publisher = {IEEE},
+  address   = {N/A},
+  isbn      = {979-8-3503-8176-4},
+  url       = {https://jcsse2024.computing.psu.ac.th/wp-content/uploads/2024/06/JCSSE-2024-Proceedings_mobile.pdf},
 }
