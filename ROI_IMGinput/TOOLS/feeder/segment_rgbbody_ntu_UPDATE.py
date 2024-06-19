@@ -790,25 +790,12 @@ def construct_st_roi_nJoints(filename, evaluation=False, random_interval=False, 
             f = lambda m, n: [i*n//m + n//(2*m) for i in range(m)]
             frame_range = f(temporal_rgb_frames, len(frames))
         else:
-            if choosing_frame_method == 'min':
-                        # def framechosen_fft(dataname, n_frame, n_chosen, choosing_frame_method='max'): 
-                frame_range = framechosen_fft(skeleton_file_name, len(frames), temporal_rgb_frames, choosing_frame_method='min')
-            elif choosing_frame_method == 'max':
-                frame_range = framechosen_fft(skeleton_file_name, len(frames), temporal_rgb_frames, choosing_frame_method='max')
-            elif choosing_frame_method == 'mix': 
-                frame_range = framechosen_fft(skeleton_file_name, len(frames), temporal_rgb_frames, choosing_frame_method='mix')
-            elif choosing_frame_method == 'btwmax':
-                frame_range = framechosen_fft(skeleton_file_name, len(frames), temporal_rgb_frames, choosing_frame_method='btwmax')
-            elif choosing_frame_method == 'btwmin': 
-                frame_range = framechosen_fft(skeleton_file_name, len(frames), temporal_rgb_frames, choosing_frame_method='btwmin')
+            if not evaluation:
+                frame_range = framechosen(len(frames), temporal_rgb_frames, choosing_frame_method=choosing_frame_method)
             else:
-                print("ELSEELSEELSEELSE")
-                if not evaluation:
-                    frame_range = framechosen(len(frames), temporal_rgb_frames, choosing_frame_method=choosing_frame_method)
-                else:
-                    start_i = sample_interval//2
-                    flip = False
-                    frame_range = range(start_i, len(frames), sample_interval)
+                start_i = sample_interval//2
+                flip = False
+                frame_range = range(start_i, len(frames), sample_interval)
                 
         i=0
         for frame in frame_range:
